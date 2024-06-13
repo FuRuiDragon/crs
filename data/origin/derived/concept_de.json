@@ -1,0 +1,851 @@
+[
+    {
+        "category": "Basistheorien",
+        "concepts": [
+            {
+                "concept": "Andere Theorie-Traditionen"
+            },
+            {
+                "concept": "Konstruktivistische Theorien"
+            },
+            {
+                "concept": "Postmoderne Theorien"
+            }
+        ]
+    },
+    {
+        "category": "Ressource",
+        "concepts": [
+            {
+                "concept": "Audio Ressource"
+            },
+            {
+                "concept": "Studienbrief Ressource"
+            },
+            {
+                "concept": "Texte Ressource"
+            },
+            {
+                "concept": "Video Ressource"
+            }
+        ]
+    },
+    {
+        "category": "Informationstechnische Grundbildung",
+        "concepts": [
+            {
+                "concept": "Aufgaben Informationstechnische Grundbildung"
+            }
+        ]
+    },
+    {
+        "category": "Medienpädagogische Teildisziplin",
+        "concepts": [
+            {
+                "concept": "Aufgaben Medienpädagogische Teildisziplin"
+            },
+            {
+                "concept": "Bezugsrahmen"
+            },
+            {
+                "concept": "Historische Entwicklung"
+            }
+        ]
+    },
+    {
+        "category": "Mediendidaktik als medienpädagogische Teildisziplin",
+        "concepts": [
+            {
+                "concept": "Autor"
+            },
+            {
+                "concept": "Didaktische und pädagogische Herausforderungen"
+            },
+            {
+                "concept": "Grundlegungen"
+            },
+            {
+                "concept": "Lehren und Lernen im Digitalen"
+            },
+            {
+                "concept": "Varianten mediengestützten Lernens"
+            },
+            {
+                "concept": "Zentrale Begriffe"
+            }
+        ]
+    },
+    {
+        "category": "Medienpädagogik",
+        "concepts": [
+            {
+                "concept": "Autor"
+            },
+            {
+                "concept": "Erweiterte Gegenstandsbereiche"
+            },
+            {
+                "concept": "Gegenstandsbereiche"
+            },
+            {
+                "concept": "Medienerziehung"
+            },
+            {
+                "concept": "Mediennutzung-Bedürfnis"
+            },
+            {
+                "concept": "Teilgebiete der Medienpädagogik"
+            },
+            {
+                "concept": "Verschiedene Ansätze in der Medienpädagogik"
+            },
+            {
+                "concept": "Ziel- und Aufgabenbereiche für Erziehung und Bildung"
+            }
+        ]
+    },
+    {
+        "category": "Social Web",
+        "concepts": [
+            {
+                "concept": "Autor"
+            },
+            {
+                "concept": "Bildung"
+            },
+            {
+                "concept": "Gesellschaft"
+            },
+            {
+                "concept": "Kommunikation"
+            },
+            {
+                "concept": "Partizipation"
+            }
+        ]
+    },
+    {
+        "category": "Medientheorie-Grundlagen",
+        "concepts": [
+            {
+                "concept": "Basistheorien"
+            },
+            {
+                "concept": "Differenzierung von Theorien"
+            }
+        ]
+    },
+    {
+        "category": "Medienproduktion und -verbreitung",
+        "concepts": [
+            {
+                "concept": "Bedingungen der Medienproduktion und -verbreitung"
+            }
+        ]
+    },
+    {
+        "category": "Mediennutzung-Bedürfnis",
+        "concepts": [
+            {
+                "concept": "Bedürfnistheoretische Sicht"
+            },
+            {
+                "concept": "Erfahrungs- und entwicklungsbezogene Sicht"
+            }
+        ]
+    },
+    {
+        "category": "Medienentwicklungen",
+        "concepts": [
+            {
+                "concept": "Beobachtungen"
+            },
+            {
+                "concept": "Weiterentwicklungen"
+            }
+        ]
+    },
+    {
+        "category": "Entwicklungen und Zukunftsszenarien im Kontext medialer Bildung",
+        "concepts": [
+            {
+                "concept": "Bildung im Wandel"
+            },
+            {
+                "concept": "Medienethik im Wandel"
+            }
+        ]
+    },
+    {
+        "category": "Bildung im Wandel",
+        "concepts": [
+            {
+                "concept": "Bildung zur digitalen Souveränität"
+            },
+            {
+                "concept": "Mobile Learning-Prämissen für die Zukunft von Bildung"
+            }
+        ]
+    },
+    {
+        "category": "Bildung",
+        "concepts": [
+            {
+                "concept": "Bildungspotenziale"
+            },
+            {
+                "concept": "Bildungsrisiken"
+            },
+            {
+                "concept": "Sozialisation"
+            },
+            {
+                "concept": "Zielkategorie"
+            }
+        ]
+    },
+    {
+        "category": "Medien",
+        "concepts": [
+            {
+                "concept": "Charakterisierungen"
+            },
+            {
+                "concept": "Klassifizierung"
+            }
+        ]
+    },
+    {
+        "category": "Mediennutzung-Nutzungsmuster",
+        "concepts": [
+            {
+                "concept": "Darstellung Nutzungsmuster"
+            }
+        ]
+    },
+    {
+        "category": "Explizite Formen",
+        "concepts": [
+            {
+                "concept": "Datenanalyse im Lehr- und Lernbereich"
+            },
+            {
+                "concept": "Intelligent Learning Environment"
+            },
+            {
+                "concept": "Mobile Learning"
+            },
+            {
+                "concept": "Personalization"
+            },
+            {
+                "concept": "Seamless Flipped Learning"
+            }
+        ]
+    },
+    {
+        "category": "Konzept Seamless flipped learning",
+        "concepts": [
+            {
+                "concept": "Definition and educational objectives"
+            },
+            {
+                "concept": "Principles and strategies for seamless flipped learning"
+            }
+        ]
+    },
+    {
+        "category": "Einfluss- und Handlungspotenziale",
+        "concepts": [
+            {
+                "concept": "Demokratie und Dezentralisierung"
+            },
+            {
+                "concept": "Demokratie und Zivilgesellschaft"
+            },
+            {
+                "concept": "kollektive Formationen im Netz"
+            }
+        ]
+    },
+    {
+        "category": "Visionen",
+        "concepts": [
+            {
+                "concept": "Demokratisierung gesellschaftlicher Entscheidungsprozesse"
+            },
+            {
+                "concept": "Einzelne Meinungen"
+            },
+            {
+                "concept": "Ende der Massenmedien"
+            }
+        ]
+    },
+    {
+        "category": "Intelligent Learning Environment",
+        "concepts": [
+            {
+                "concept": "Design of ILE"
+            },
+            {
+                "concept": "Usage of ILE"
+            }
+        ]
+    },
+    {
+        "category": "Kompetenz Erweiterte Gegenstandsbereiche",
+        "concepts": [
+            {
+                "concept": "Deutung des Begriffs Kompetenz"
+            },
+            {
+                "concept": "Individuelle Kompetenzen"
+            }
+        ]
+    },
+    {
+        "category": "Zentrale Begriffe",
+        "concepts": [
+            {
+                "concept": "Didaktik"
+            },
+            {
+                "concept": "Medien"
+            },
+            {
+                "concept": "Mediendidaktik-Begriffsauslegungen"
+            }
+        ]
+    },
+    {
+        "category": "Digitale Medialität",
+        "concepts": [
+            {
+                "concept": "Digital vernetzte Medialität"
+            },
+            {
+                "concept": "Digitalisierung des Wissens"
+            },
+            {
+                "concept": "Digitalisierung und Vernetzung"
+            }
+        ]
+    },
+    {
+        "category": "Varianten mediengestützten Lernens",
+        "concepts": [
+            {
+                "concept": "Digitale Lernszenarien"
+            },
+            {
+                "concept": "Lernen mit digitalen Medien"
+            },
+            {
+                "concept": "Trends durch Digitalisierung in der Bildung"
+            }
+        ]
+    },
+    {
+        "category": "Medialität",
+        "concepts": [
+            {
+                "concept": "Digitale Medialität"
+            },
+            {
+                "concept": "Medialität des Wissens"
+            }
+        ]
+    },
+    {
+        "category": "Selbst- Welt- und Technologieverhältnisse",
+        "concepts": [
+            {
+                "concept": "Digitale Medien als Technologien"
+            },
+            {
+                "concept": "Reflexivierung durch Konstruktionstätigkeiten"
+            },
+            {
+                "concept": "Technologieperspektive in der Medienbildung"
+            }
+        ]
+    },
+    {
+        "category": "Bildung und digitale Medien",
+        "concepts": [
+            {
+                "concept": "Digitale Transformation von Lebenswelt"
+            },
+            {
+                "concept": "Entwicklungen und Zukunftsszenarien im Kontext medialer Bildung"
+            },
+            {
+                "concept": "Medienbildung"
+            }
+        ]
+    },
+    {
+        "category": "Gesellschaft",
+        "concepts": [
+            {
+                "concept": "Diskurse um das Web 2 0"
+            },
+            {
+                "concept": "Vorläufer"
+            }
+        ]
+    },
+    {
+        "category": "Medien - theoretische Grundlagen",
+        "concepts": [
+            {
+                "concept": "Diskussion des Begriffs Medien"
+            },
+            {
+                "concept": "Medialität"
+            },
+            {
+                "concept": "Medientheorie-Grundlagen"
+            }
+        ]
+    },
+    {
+        "category": "Partizipation",
+        "concepts": [
+            {
+                "concept": "Einfluss- und Handlungspotenziale"
+            }
+        ]
+    },
+    {
+        "category": "Diskurse um das Web 2 0",
+        "concepts": [
+            {
+                "concept": "Entitäten"
+            },
+            {
+                "concept": "Visionen"
+            },
+            {
+                "concept": "ökonomisches Prinzip"
+            }
+        ]
+    },
+    {
+        "category": "Erweiterte Gegenstandsbereiche",
+        "concepts": [
+            {
+                "concept": "Entwicklung"
+            },
+            {
+                "concept": "Informations- und Kommunikationstheorie"
+            },
+            {
+                "concept": "Kompetenz Erweiterte Gegenstandsbereiche"
+            },
+            {
+                "concept": "Sprachkompetenz"
+            }
+        ]
+    },
+    {
+        "category": "medientheoretische Implikation",
+        "concepts": [
+            {
+                "concept": "Entwicklungen"
+            },
+            {
+                "concept": "Medienwissenschaftliche Klassifikationsschema"
+            },
+            {
+                "concept": "komplementäre Dynamiken zwischen Social Web und Massenmedien"
+            }
+        ]
+    },
+    {
+        "category": "Vorläufer",
+        "concepts": [
+            {
+                "concept": "Erwartungen"
+            },
+            {
+                "concept": "Medienentwicklungen"
+            }
+        ]
+    },
+    {
+        "category": "Medienethik im Wandel",
+        "concepts": [
+            {
+                "concept": "Ethik 2 0"
+            },
+            {
+                "concept": "Medienethik in der medienpädagogischen Praxis"
+            }
+        ]
+    },
+    {
+        "category": "Design of ILE",
+        "concepts": [
+            {
+                "concept": "Example iTalk2Learn Platform"
+            }
+        ]
+    },
+    {
+        "category": "Lehren und Lernen im Digitalen",
+        "concepts": [
+            {
+                "concept": "Explizite Formen"
+            }
+        ]
+    },
+    {
+        "category": "Ziel- und Aufgabenbereiche aus medienpädagogischer Sicht",
+        "concepts": [
+            {
+                "concept": "Faktoren des Erkennens und Aufarbeitens von Medieneinflüssen"
+            },
+            {
+                "concept": "Kompetenzen des Verstehens und Bewertens von Mediengestaltungen"
+            },
+            {
+                "concept": "Ziele für das Durchschauen und Beurteilen von Bedingungen der Medienproduktion und Medienverbreitung"
+            }
+        ]
+    },
+    {
+        "category": "World Wide Web",
+        "concepts": [
+            {
+                "concept": "Frühes Web"
+            }
+        ]
+    },
+    {
+        "category": "Informations- und Kommunikationstheorie",
+        "concepts": [
+            {
+                "concept": "Informationstechnische Grundbildung"
+            }
+        ]
+    },
+    {
+        "category": "Entwicklung",
+        "concepts": [
+            {
+                "concept": "Kognitive Entwicklung"
+            },
+            {
+                "concept": "Sozial-kognitive Entwicklung"
+            },
+            {
+                "concept": "Sozial-moralische Entwicklung"
+            }
+        ]
+    },
+    {
+        "category": "Kommunikation",
+        "concepts": [
+            {
+                "concept": "Kommunikationsformen"
+            },
+            {
+                "concept": "Kommunikationstools im Social Web"
+            },
+            {
+                "concept": "Medienformen"
+            },
+            {
+                "concept": "Mediengeschichte"
+            },
+            {
+                "concept": "Mediennutzung-Nutzungsmuster"
+            },
+            {
+                "concept": "medientheoretische Implikation"
+            }
+        ]
+    },
+    {
+        "category": "Grundlegungen",
+        "concepts": [
+            {
+                "concept": "Kompetenz Grundlegungen"
+            },
+            {
+                "concept": "Verortung im wissenschaftlichen Kontext"
+            }
+        ]
+    },
+    {
+        "category": "Seamless Flipped Learning",
+        "concepts": [
+            {
+                "concept": "Konzept Seamless flipped learning"
+            }
+        ]
+    },
+    {
+        "category": "Verortung im wissenschaftlichen Kontext",
+        "concepts": [
+            {
+                "concept": "Kooperationen in der Medienpädagogik"
+            },
+            {
+                "concept": "Mediendidaktische Ansätze"
+            },
+            {
+                "concept": "Medienpädagogische Teildisziplin"
+            }
+        ]
+    },
+    {
+        "category": "Medienbildung",
+        "concepts": [
+            {
+                "concept": "Medienbildung im medienpädagogischen Diskurs"
+            },
+            {
+                "concept": "Medienkompetenz"
+            }
+        ]
+    },
+    {
+        "category": "Gegenstandsbereiche",
+        "concepts": [
+            {
+                "concept": "Medieneinfluss"
+            },
+            {
+                "concept": "Mediengestaltungen"
+            },
+            {
+                "concept": "Medienkompetenz-Gegenstandsbereich"
+            },
+            {
+                "concept": "Medienproduktion und -verbreitung"
+            }
+        ]
+    },
+    {
+        "category": "Medienerziehung",
+        "concepts": [
+            {
+                "concept": "Medienerzieherische Konzepte Ansätze"
+            }
+        ]
+    },
+    {
+        "category": "Medienkompetenz-Zielkategorie",
+        "concepts": [
+            {
+                "concept": "Medienkompetenz-Definitionen"
+            }
+        ]
+    },
+    {
+        "category": "Zielkategorie",
+        "concepts": [
+            {
+                "concept": "Medienkompetenz-Zielkategorie"
+            }
+        ]
+    },
+    {
+        "category": "Medienkompetenz-Gegenstandsbereich",
+        "concepts": [
+            {
+                "concept": "Medienkompetenz Ansätze"
+            }
+        ]
+    },
+    {
+        "category": "Mediengestaltungen",
+        "concepts": [
+            {
+                "concept": "Medienmerkmale"
+            }
+        ]
+    },
+    {
+        "category": "Bezugsrahmen",
+        "concepts": [
+            {
+                "concept": "Medienpädagogik als Disziplin"
+            }
+        ]
+    },
+    {
+        "category": "Aufgaben Medienpädagogische Teildisziplin",
+        "concepts": [
+            {
+                "concept": "Medientaxonomien Beispiele"
+            }
+        ]
+    },
+    {
+        "category": "Mobile Learning",
+        "concepts": [
+            {
+                "concept": "Mobile Learning-Modelle"
+            }
+        ]
+    },
+    {
+        "category": "Erwartungen",
+        "concepts": [
+            {
+                "concept": "Neue Medien Erwartungen"
+            },
+            {
+                "concept": "World Wide Web"
+            }
+        ]
+    },
+    {
+        "category": "Klassifizierung",
+        "concepts": [
+            {
+                "concept": "Neue Medien Klassifizierung"
+            }
+        ]
+    },
+    {
+        "category": "Digitalisierung des Wissens",
+        "concepts": [
+            {
+                "concept": "Neue Medien und veränderte Wissensformen"
+            }
+        ]
+    },
+    {
+        "category": "Mobile Learning-Prämissen für die Zukunft von Bildung",
+        "concepts": [
+            {
+                "concept": "Personalisierung"
+            }
+        ]
+    },
+    {
+        "category": "Bildungspotenziale",
+        "concepts": [
+            {
+                "concept": "Persönlichkeitsbildung"
+            }
+        ]
+    },
+    {
+        "category": "Mediengeschichte",
+        "concepts": [
+            {
+                "concept": "Phaseneinteilung der Mediengeschichte"
+            }
+        ]
+    },
+    {
+        "category": "Didaktische und pädagogische Herausforderungen",
+        "concepts": [
+            {
+                "concept": "Schulische Medienbildung"
+            }
+        ]
+    },
+    {
+        "category": "Digitale Transformation von Lebenswelt",
+        "concepts": [
+            {
+                "concept": "Selbst- Welt- und Technologieverhältnisse"
+            }
+        ]
+    },
+    {
+        "category": "Lernen mit digitalen Medien",
+        "concepts": [
+            {
+                "concept": "Selbstgesteuertes Lernen"
+            }
+        ]
+    },
+    {
+        "category": "Reflexivierung durch Konstruktionstätigkeiten",
+        "concepts": [
+            {
+                "concept": "Sinndimension"
+            }
+        ]
+    },
+    {
+        "category": "Sozialisation",
+        "concepts": [
+            {
+                "concept": "Sozialisationskonzepte"
+            }
+        ]
+    },
+    {
+        "category": "Sozial-moralische Entwicklung",
+        "concepts": [
+            {
+                "concept": "Stufen sozial-moralischer Entwicklung"
+            }
+        ]
+    },
+    {
+        "category": "Sprachkompetenz",
+        "concepts": [
+            {
+                "concept": "Unterschiedliche Ansätze zur Sprachkompetenz"
+            }
+        ]
+    },
+    {
+        "category": "Medienbildung im medienpädagogischen Diskurs",
+        "concepts": [
+            {
+                "concept": "Wandelnde Begriffsverständnisse"
+            }
+        ]
+    },
+    {
+        "category": "ökonomisches Prinzip",
+        "concepts": [
+            {
+                "concept": "Wertschöpfungsketten"
+            }
+        ]
+    },
+    {
+        "category": "Verschiedene Ansätze in der Medienpädagogik",
+        "concepts": [
+            {
+                "concept": "Ziel- und Aufgabenbereiche aus medienpädagogischer Sicht"
+            }
+        ]
+    },
+    {
+        "category": "Kommunikationstools im Social Web",
+        "concepts": [
+            {
+                "concept": "Zweck der Nutzung von Kommunikationstools"
+            }
+        ]
+    },
+    {
+        "category": "Medienformen",
+        "concepts": [
+            {
+                "concept": "nach Schrape"
+            }
+        ]
+    },
+    {
+        "category": "kollektive Formationen im Netz",
+        "concepts": [
+            {
+                "concept": "vier basale Akteurtypen"
+            }
+        ]
+    }
+]

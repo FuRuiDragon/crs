@@ -1,0 +1,18 @@
+{
+    {"student_id": ""
+      "context":{
+         "course_summary": "TechPro Ultrabook",
+         "personal_research_interests": ""
+         },
+      "term_paper": {
+        "research_topic": "",
+        "annotations_rt":["", ""],
+        "feedback": "",
+        "next_step":"",
+        "research_questions":[
+          {"research_question":"rq1","feedback_rq":"frq1"},
+          {"research_question":"rq2","feedback_rq":"frq2"}]
+      },
+      "occupation": "teacher"
+    }
+}

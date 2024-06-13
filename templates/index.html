@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Welcome to AI.EDU Lab 2.0</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles/style.css') }}">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+{#<form class="model" name="dropForm" method="POST" action="{{ url_for('/') }}">#}
+<form class="model" name="dropForm" method="POST">
+  <section > Choose a LLM Model:
+    <select name="current_model" id="current_model" onchange="appendModelChangeNote()">
+        {% for x in modelList %}
+            {# <OPTION value={{x}}>{{modelList[x]}}</option>#}
+            {% if "gpt" not in  x  %}
+            <OPTION value={{x}} disabled>{{x}}</option>
+{#            {% elif "gpt" not in x  %}#}
+{#            <OPTION value={{x}} disabled>{{x}}</option>#}
+            {% else  %}
+            <OPTION value={{x}} >{{x}}</option>
+            {% endif %}
+        {% endfor %}
+      </select>
+      <button type="submit" style="width:50px"> Set </button>
+  </section>
+</form>
+
+  <!-- partial:index.partial.html -->
+  <section class="msger">
+    <header class="msger-header">
+      <div class="msger-header-title">
+        <i ></i>Your Personal Assistant for Term Paper <i ></i>
+      </div>
+    </header>
+
+    <main class="msger-chat" id="msger-chat">
+      <div class="msg left-msg">
+        <div class="msg-img" style="background-image: url(https://image.flaticon.com/icons/svg/327/327779.svg)"></div>
+        <div class="msg-bubble">
+          <div class="msg-info">
+          <div class="msg-info-name">EdTec_Bot  </div>
+          <div class="msg-info-name-mv">({{ gpt_model }})</div>
+          <div class="msg-info-time">{{starting_time}}</div>
+          </div>
+
+          <div class="msg-text">
+           Congratulations to the new semester! We are here to help you with your Term Paper to give feedback or suggestion on your research topic. 😄
+          </div>
+        </div>
+      </div>
+{#      <p id="demo" style="color:blue; font-style: italic;"></p>#}
+    </main>
+
+    <form class="msger-inputarea">
+      <input type="text" class="msger-input" id="textInput" placeholder="Enter your message...">
+      <button type="submit" class="msger-send-btn">Send</button>
+    </form>
+  </section>
+<!-- partial -->
+  <script src='https://use.fontawesome.com/releases/v5.0.13/js/all.js'></script>
+  <script>
+      const msgerForm = get(".msger-inputarea");
+      const msgerInput = get(".msger-input");
+      const msgerChat = get(".msger-chat");
+
+      function appendModelChangeNote() {
+          var sT = dropForm.current_model;
+          document.getElementById("msger-chat").innerHTML += '<div id="demo" style="color:blue; font-style: italic; margin-bottom: 8px"> Note: you have switched the LLM model to <mark style="background-color: #579ffb; color:white;">'  + '&nbsp'+ sT[sT.selectedIndex].value +'&nbsp '+ '</mark></div>';
+          msgerChat.scrollTop += 20;
+      }
+
+      function getSelectedModel() {
+          var sT = dropForm.current_model;
+          return '('+ sT[sT.selectedIndex].value +')'
+      }
+
+    // Icons made by Freepik from www.flaticon.com
+    const BOT_IMG = "https://image.flaticon.com/icons/svg/327/327779.svg";
+    const PERSON_IMG = "https://image.flaticon.com/icons/svg/145/145867.svg";
+    const BOT_NAME = "    EdTec_Bot";
+    const PERSON_NAME = "You";
+
+    msgerForm.addEventListener("submit", event => {
+      event.preventDefault();
+
+      const msgText = msgerInput.value;
+      if (!msgText) return;
+
+      appendMessage(PERSON_NAME, PERSON_IMG, "right", "", msgText, "", "");
+      msgerInput.value = "";
+      botResponse(msgText);
+    });
+
+    function appendMessage(name, img, side, modelversion, text, extraText, chain_thoughts) {
+      //   Simple solution for small apps
+      const msgHTML = `
+                <div class="msg ${side}-msg">
+                  <div class="msg-img" style="background-image: url(${img})"></div>
+
+                  <div class="msg-bubble">
+                    <div class="msg-info">
+                      <div class="msg-info-name">${name}</div>
+                      <div class="msg-info-name-mv">${modelversion}</div>
+                      <div class="msg-info-time">${formatDate(new Date())}</div>
+                    </div>
+                    {#<div class="msg-text">${text}</div>#}
+                    <pre>${text}</pre>
+                    </div>
+                </div>
+                <div class="msg-bubble-white">
+                <div class="msger-extrainfo">${extraText}</div>
+                <div class="msger-extrainfo"> <pre>${chain_thoughts}</pre></div></div>`;
+
+      msgerChat.insertAdjacentHTML("beforeend", msgHTML);
+      msgerChat.scrollTop += 500;
+    }
+
+    function botResponse(rawText) {
+      // Bot Response
+      $.get("/get", { msg: rawText }).done(function (data) {
+        console.log(rawText);
+        console.log(data);
+        //test example
+        //const msgText = data;
+        msgText = data['text'];
+
+        {#modelversion = ' ({{gpt_model}})'#}
+        modelversion = getSelectedModel()
+
+        //test example
+        //extraInfo= ""
+        extraInfo= 'Total_tokens: '+ data['total_tokens'] + ';                Price: '+ data['completion_price']
+        if (data['chain_of_thoughts'] != "")
+            chain_of_reasoing= '<b>  Chain-of-Thought: </b>\n' + '<pre>'+ data['chain_of_thoughts'] + '</pre>'
+        else
+            chain_of_reasoing= ""
+
+        appendMessage(BOT_NAME, BOT_IMG, "left", modelversion,  msgText, extraInfo, chain_of_reasoing);
+
+      });
+
+    }
+
+
+    // Utils
+    function get(selector, root = document) {
+      return root.querySelector(selector);
+    }
+
+    {#var timeDisplayElement = document.querySelector('#now');#}
+
+    {#function printTime() {#}
+    {#  var d = new Date();#}
+    {#  var hours = d.getHours();#}
+    {#  var mins = d.getMinutes();#}
+    {#  //var secs = d.getSeconds();#}
+    {#  //timeDisplayElement.innerHTML = hours+":"+mins+":"+secs;#}
+    {#  timeDisplayElement.innerHTML = hours+":"+mins;#}
+    {#  document.getElementById('now').innerHTML = hours+":"+mins;;#}
+
+    {#setInterval(printTime, 1);#}
+
+    function formatDate(date) {
+      const h = "0" + date.getHours();
+      const m = "0" + date.getMinutes();
+      nowtime = `${h.slice(-2)}:${m.slice(-2)}`;
+      {#document.getElementById('now').innerHTML = nowtime;#}
+      return `${h.slice(-2)}:${m.slice(-2)}`;
+    }
+  </script>
+</body>
+</html>
